@@ -1,16 +1,8 @@
 {
   "name": "browser-dual-view",
   "description": "Creates two seperate browser instances, linked to each other, ideal for logging into multiple accounts on one website",
-  "dependencies": {
-    "electron": "^33.2.0"
-  },
-  "scripts": {
-    "app": "electron --no-sandbox src/interface/electron.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ItsLeMax/Browser-Dual-View.git"
-  },
+  "author": "ItsLeMax",
+  "license": "AGPL-3.0-only",
   "keywords": [
     "Browser",
     "Dual",
@@ -18,8 +10,25 @@
     "Chrome",
     "Chromium"
   ],
-  "author": "ItsLeMax",
-  "license": "AGPL-3.0-only",
+  "scripts": {
+    "app": "electron --no-sandbox src/interface/electron.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "productName": "Browser Dual View",
+  "build": {
+    "appId": "de.max.BrowserDualView",
+    "win": {
+      "target": "portable"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsLeMax/Browser-Dual-View.git"
+  },
   "bugs": {
     "url": "https://github.com/ItsLeMax/Browser-Dual-View/issues"
   },
