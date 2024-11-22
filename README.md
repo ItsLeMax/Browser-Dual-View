@@ -10,5 +10,5 @@ Creates two seperate browser instances, linked to each other, ideal for logging 
 1. Download the latest executable file [here](https://github.com/ItsLeMax/Browser-Dual-View/releases/latest)
 2. Run it
 
-## Urheberrechtlicher Verweis
-Das Icon der Applikation stammt von `Flaticon/xnimrodx` und ist auf [diese Adresse](https://www.flaticon.com/de/kostenloses-icon/monitor_3474362) zurückzuführen.
+## Credits
+The app icon is from `Flaticon/xnimrodx`, available [here](https://www.flaticon.com/de/kostenloses-icon/monitor_3474362).
