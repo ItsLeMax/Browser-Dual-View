@@ -1,7 +1,7 @@
 # Browser Dual View
 
 Creates two seperate browser instances, linked to each other, ideal for logging into multiple accounts on one website
-![readme-dual_view](https://github.com/user-attachments/assets/92d7fd7c-0929-4e20-a9c3-cac87aa1343b)
+![1 0 0-window](https://github.com/user-attachments/assets/92d7fd7c-0929-4e20-a9c3-cac87aa1343b)
 
 ## Requirements
 
