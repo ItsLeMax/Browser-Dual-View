@@ -18,9 +18,9 @@ app.whenReady().then(() => {
      * should the window be movable?
      *
      * @returns
-     * Fenster mit Discord
+     * Browserfenster mit Discord
      *
-     * window with Discord
+     * browser window with Discord
      */
     const createWindow = (movable) => {
         const window = new BrowserWindow({
@@ -54,9 +54,9 @@ app.whenReady().then(() => {
      * @author ItsLeMax
      *
      * @returns
-     * Neue `y`-Koordinate
+     * Nummer mit neuer `y`-Koordinate
      *
-     * new `y` coordinate
+     * Number with new `y` coordinate
      */
     const y = () => mainWindow.getPosition()[1] + mainWindow.getBounds().height;
     /** @see y — Ähnliche Funktion / similar function */
